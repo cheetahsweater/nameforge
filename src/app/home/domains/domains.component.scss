@@ -1,0 +1,10 @@
+.expansion-container {
+    align-items: flex-start; /* Prevents all panels from stretching */
+  }
+  
+  .expansion-panel {
+    // display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Ensures independent resizing of each panel */
+    min-height: auto;
+  }
